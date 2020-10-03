@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.scss';
 
+//Imports Components
+import Header from '../components/Header';
+import Wheel from '../components/Wheel/';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>I am a header.</p>
-      </header>
+      <Header title='Wheel of Indecision' />
+      <Wheel />
     </div>
   );
 }
