@@ -29,14 +29,14 @@ function Wheel(props) {
   };
 
 return (
-    <PieChart width={650} height={650}>
+    <PieChart width={600} height={600}>
       <Pie
         data={data}
-        cx={325}
-        cy={325}
+        cx={300}
+        cy={300}
         labelLine={false}
         label={renderCustomizedLabel}
-        outerRadius={160}
+        outerRadius={280}
         fill="#8884d8"
         dataKey="value"
       >
